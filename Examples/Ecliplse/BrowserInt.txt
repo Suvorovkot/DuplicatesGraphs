@@ -1,0 +1,23 @@
+1 AuthenticationListener	
+This listener interface may be implemented in order to receive an AuthenticationEvent notification when the Browser encounters a page that requires authentication.
+
+2 CloseWindowListener	
+This listener interface may be implemented in order to receive a WindowEvent notification when a Browser is about to be closed and when its host window should be closed by the application.
+
+3 LocationListener	
+This listener interface may be implemented in order to receive a LocationEvent notification when a Browser navigates to a different URL.
+
+4 OpenWindowListener	
+This listener interface may be implemented in order to receive a WindowEvent notification when a new Browser needs to be provided by the application.
+
+5 ProgressListener	
+This listener interface may be implemented in order to receive a ProgressEvent notification when a Browser makes a progress in loading the current URL or when the current URL has been loaded.
+
+6 StatusTextListener	
+This listener interface may be implemented in order to receive a StatusTextEvent notification when the status text for a Browser is changed.
+
+7 TitleListener	
+This listener interface may be implemented in order to receive a TitleEvent notification when the title of the document displayed in a Browser is known or has been changed.
+
+8 VisibilityWindowListener	
+This listener interface may be implemented in order to receive a WindowEvent notification when a window hosting a Browser needs to be displayed or hidden.

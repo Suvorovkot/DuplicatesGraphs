@@ -15,4 +15,4 @@ w1 = c.weights(n1, c.divLenghts(n1, lenFr1))
 c.printWeights(n1, w1)
 
 #gd.grDraw(n1, w1)
-gd.grViz(n1,w1)
+gd.grViz(n1,w1,'DebugFunctions')

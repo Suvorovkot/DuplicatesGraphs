@@ -18,12 +18,24 @@ def weights(n, divLen):
                 wts[j][k] = wt
     return wts
 
+def maxweights(n, divLen):
+    wts = np.zeros((n, n))
+    for j in range(n):
+        for k in range(j + 1, n):
+            wt = max(divLen[j][k], divLen[k][j])
+            if (wt >= 0.5):
+                wts[j][k] = wt
+    return wts
+
+
 
 def printWeights(n, weights):
     for j in range(n):
         for k in range(j, n):
             if (weights[j][k] != 0):
                 print(j + 1, "-", k + 1, ":", weights[j][k])
+
+
 def coms(str):
     out = "["
     num = 0

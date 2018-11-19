@@ -81,4 +81,4 @@ c.printWeights(n3, w3)
 
 
 #gd.grDraw(n3,w3)
-gd.grViz(n3,w3)
+gd.grViz(n3,w3,'NANDdriver')

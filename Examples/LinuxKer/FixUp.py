@@ -12,4 +12,4 @@ w2 = c.weights(n2, c.divLenghts(n2, lenFr2))
 c.printWeights(n2, w2)
 
 #gd.grDraw(n2, w2)
-gd.grViz(n2,w2)
+gd.grViz(n2,w2,'FixupFunctions')

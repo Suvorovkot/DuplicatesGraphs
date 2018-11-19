@@ -1,0 +1,32 @@
+1 IPersistableSourceLocator2	
+Extensions to the IPersistableSourceLocator interface.
+
+
+
+2 ISourceContainer	
+A source container is a container of source code.
+
+3 ISourceContainerType	
+A source container type represents a kind of container of source code.
+
+4 ISourceContainerTypeDelegate	
+A source container type delegate represents a kind of container of source code.
+
+
+
+
+5 ISourceLookupDirector	
+A source lookup director directs the source lookup process among a set of participants and source containers.
+
+
+
+6 ISourceLookupParticipant	
+A source lookup participant participates in source lookup by searching an ordered list of source containers for source elements corresponding to a debug artifact.
+
+
+
+7 ISourcePathComputer	
+A source path computer computes the default source lookup path (set of source containers that should be considered) for a launch configuration.
+
+8 ISourcePathComputerDelegate	
+A source path computer delegate computes the default source lookup path (set of source containers that should be considered) for a launch configuration.

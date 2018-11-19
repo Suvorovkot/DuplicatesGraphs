@@ -1,4 +1,4 @@
-graph Repeats {
+graph NANDdriver {
 	node [color=lightblue2 style=filled]
 	rankdir=LR size="8,5"
 	1

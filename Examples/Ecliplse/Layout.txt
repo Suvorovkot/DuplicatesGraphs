@@ -1,0 +1,23 @@
+1 FillLayout	
+FillLayout is the simplest layout class.
+
+2 FormAttachment	
+Instances of this class are used to define the edges of a control within a FormLayout.
+
+3 FormData	
+Instances of this class are used to define the attachments of a control in a FormLayout.
+
+4 FormLayout	
+Instances of this class control the position and size of the children of a composite control by using FormAttachments to optionally configure the left, top, right and bottom edges of each child.
+
+5 GridData	
+GridData is the layout data object associated with GridLayout.
+
+6 GridLayout	
+Instances of this class lay out the control children of a Composite in a grid.
+
+7 RowData	
+Each control controlled by a RowLayout can have its initial width and height specified by setting a RowData object into the control.
+
+8 RowLayout	
+Instances of this class determine the size and position of the children of a Composite by placing them either in horizontal rows or vertical columns within the parent Composite.

@@ -23,8 +23,8 @@ def grDraw(n, weights):
     nx.draw_spring(Gr,with_labels = True, node_size=100, font_size= 10)
     pylab.show()
 
-def grViz(n, weights):
-    g = gv.Graph('Repeats', filename='Repeats.gv', engine='circo')
+def grViz(n, weights, Name):
+    g = gv.Graph(Name, filename=Name, engine='circo')
     g.node_attr.update(color='lightblue2', style='filled')
     g.attr(rankdir='LR', size='8,5')
     labels = range(1, n + 1)
@@ -34,7 +34,7 @@ def grViz(n, weights):
         for k in range(j, n):
             if (weights[j][k] != 0):
                 g.edge(str(j+1), str(k+1), label=str(weights[j][k]))
-    g.render('Repeats.gv', view=True)
+    g.render('Graphs/'+Name, view=True)
     g.view()
 
     # print(g.source)
